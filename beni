@@ -1,0 +1,6 @@
+num = int(input("Enter a positive integer: "))
+
+counter = 0
+while counter <= 10:
+    print(num, "x", counter, "=", num*counter)
+    counter+=1
